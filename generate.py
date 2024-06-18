@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     # 加载生成器模型的权重
     generator = Generator().to(device)
-    generator.load_state_dict(torch.load('generator_weights1.pth'))
+    generator.load_state_dict(torch.load('generator_weights3000.pth'))
     generator.eval()
 
 

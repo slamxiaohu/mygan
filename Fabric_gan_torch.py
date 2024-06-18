@@ -219,7 +219,6 @@ if __name__ == "__main__":
     # 训练FabricGAN
     train_gan(generator, discriminator, dataloader, epochs=100, batch_size=8)
 
-    # 保存生成器模型的权重
-    # torch.save(generator.state_dict(), 'generator_weights.pth')
+
 
 
